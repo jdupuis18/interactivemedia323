@@ -1,6 +1,6 @@
 /* universal styles */
 html {font-size: 16px;
-     font-family: "Arial", sans-serif;}
+     }
 
 body {}
 
@@ -13,3 +13,4 @@ a{text-decoration: none;}
 p {}
 
 .funnygif {align-content: center;}
+.googledoc {font-size: 10px}
