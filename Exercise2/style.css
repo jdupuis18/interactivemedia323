@@ -19,7 +19,11 @@ h1{
 	margin-right: auto;
 }
 
-h2{}
+h2{
+	font-size: 2em;
+	text-align: left;
+	color: black;
+}
 
 ul{
 	font-size: 16px;
@@ -29,6 +33,24 @@ ul{
 ol{font-size: 16px;}
 
 li{font-size: 16px;}
+
+img{max-width: 90%;
+	padding-top: 20px;
+}
+
+.container{
+	background: #DCEAD0;
+	padding: 15px;
+	border:10px inset green;
+	margin: 30px auto;
+	width: 95%;
+	float: center;
+}
+
+.number{
+	text-align: left;
+	font-style: bold;
+}
 
 #table-of-contents {
   list-style: none;
@@ -54,4 +76,21 @@ li{font-size: 16px;}
 	color: white;
 	background: green;
 	text-decoration: none;
+}
+a#back-to-top{
+	width: 200px;
+	height: 200px;
+	background: green;
+	border: 2px inset #DCEAD0;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+
+a#back-to-top:hover {
+border-radius: 2px inset green;
+background: #DCEAD0;
+color: green;
 }
