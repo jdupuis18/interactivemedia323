@@ -16,13 +16,14 @@ body {background: darkseagreen;}
 h1 {font-family: 'Montserrat', sans-serif;
 color: steelblue;}
 
-h2 {}
+h2 {font-family: Helvetica;}
 
 a{text-decoration: none;
 color: steelblue;}
 a:hover{ color: goldenrod; }
 
-p {color: steelblue;}
+p {font-family: 'Montserrat', sans-serif;
+	color: steelblue;}
 
 .funnygif {align-content: center;}
 .googledoc {font-size: 10px}
