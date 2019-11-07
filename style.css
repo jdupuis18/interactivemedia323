@@ -16,11 +16,11 @@ body {background: darkseagreen;}
 h1 {font-family: 'Montserrat', sans-serif;
 color: steelblue;}
 
-h2 {color: steelblue;}
+h2 {}
 
 a{text-decoration: none;}
 
-p {}
+p {color: steelblue;}
 
 .funnygif {align-content: center;}
 .googledoc {font-size: 10px}
