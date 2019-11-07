@@ -18,7 +18,9 @@ color: steelblue;}
 
 h2 {}
 
-a{text-decoration: none;}
+a{text-decoration: none;
+color: steelblue;}
+a:hover{ color: goldenrod; }
 
 p {color: steelblue;}
 
