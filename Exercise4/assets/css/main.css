@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+div{ display: block; }
+
+.canvas.gray{
+	background: #778899;
+	z-index: -1;
+}
+
+.object{position: absolute;}
+.power-brick{ width: 500px;
+      height: 500px;
+      left: 250px;
+      right: 400px;
+      top: 30px;
+  }
+  .logo{background: #F5F5F5;
+  	width: 200px;
+      height: 200px;
+      border-radius: 25%;
+      left: 150px;
+      top: 150px}
+
+  .bite{width: 100px;
+      height: 100px;
+      background: white;
+      border-radius: 50%;
+      left: 119px;
+      top: 200px;}
+
+      .leaf{width: 100px;
+      height: 50px;
+      background: #F5F5F5;
+      border-radius: 100px / 50px;
+      left: 223px;
+      top: 351px;
+      transform: rotate(228deg);}
+      .connector{border: solid;
+      width: 158px;
+      height: 160px;
+      top: 341px;
+      left: 342px;
+      border-bottom-right-radius: 75%;
+      border-bottom-left-radius: 10%;}
+      .small-sheth{
+      	background: #F5F5F5;
+      	width: 204px;
+      height: 49px;
+      right: 414px;
+      bottom: 227px;}
+      .large-sheth{background: #F5F5F5;
+      	width: 204px;
+      height: 51px;
+      left: 362px;
+      top: 416px;}
+      .small-cable{background: white;
+      width: 262px;
+      height: 35px;
+      left: -250px;
+      bottom: 235px;}
+      .large-cable{background: white;
+      width: 250px;
+      height: 43px;
+      left: 400px;
+      top: 420px;}
+
+  .brick{background: white;
+	width: 500px;
+      height: 500px;
+      border-radius: 25%;
+}
+
+.canvas.dark-blue{z-index: -1;
+background: midnightblue;}
+
+.moon{width: 170px;
+      height: 170px;
+      left: -7px;
+      top: -27px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 #FFFFE0}
+
+.cone{width: 0;
+      height: 0;
+      border-top: 170px solid #4682B4
+;
+      border-right: 170px solid transparent;
+top: 126px;
+left: 195px;
+transform: rotate(-26deg);}
+
+.fin-1{width: 150px;
+      height: 100px;
+      top: 318px;
+      left: 547px;
+      transform: skew(52deg) rotate(31deg);
+      background: #4682B4
+;}
+
+.fin-2{width: 150px;
+      height: 149px;
+      transform: skew(-56deg) rotate(79deg);
+      left: 634px;
+      top: 178px;
+      background: #4682B4
+;}
+.window{width: 200px;
+      height: 100px;
+      top: 134px;
+      left: 376px;
+      border-radius: 28%;
+      background: #AFEEEE;
+      transform: rotate(20deg);
+border-bottom: solid;
+border-bottom-width: thick;
+border-bottom-color: darkslategrey;}
+
+.shine{width: 80px;
+      height: 80px;
+      left: 473px;
+      top: 165px;
+      border-radius: 53%;
+      transform: rotate(-70deg);
+      box-shadow: 15px 15px 0 0 #E0FFFF
+;}
+.flames-1{
+display: inline-block;
+transform: rotate(-257deg);
+  border: 5px solid red;
+  background: orangered;
+  width: 50px;
+  height: 100px;
+  top: 283px;
+  left: 725px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;}
+
+.flames-2{display: inline-block;
+transform: rotate(-257deg);
+  border: 5px solid red;
+  background: orangered;
+  width: 50px;
+  height: 100px;
+  top: 327px;
+  left: 716px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;}
+
+.flames-3{display: inline-block;
+transform: rotate(-257deg);
+  border: 5px solid red;
+  background: orangered;
+  width: 50px;
+  height: 100px;
+  top: 365px;
+  left: 705px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;}
+
+.rocket{ width: 474px;
+      height: 166px;
+      top: 210px;
+      left: 263px;
+      transform: rotate(19deg);
+      background: dimgray;}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}

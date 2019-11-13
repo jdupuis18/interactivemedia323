@@ -2,19 +2,25 @@
 <html>
 <head></head>
 <title>Fire and Ice</title>
+<style type="text/css">
+	div{position: static;
+		}
+	.fire{position: relative;
+		left: 300px;}
+	.ice{position: relative;
+		left: 300px;}
+	.other{position: relative;
+		left: 300px;}
+</style>
 <body>
-	<p>Some say the world will end in fire,<p>
-<ul>
-	<li>From what I’ve tasted of desire</li>
-	<li>I hold with those who favor fire.</li>
-</ul>
-<p>Some say in ice.</p>
-<ul>
-	<li>But if it had to perish twice,</li>
-	<li>I think I know enough of hate</li>
-	<li>To say that for destruction ice</li>
-	<li>Is also great</li>
-</ul>
-<p>And would suffice.<p>
+<div>Some say the world will end in <div class="fire">fire</div>,
+Some say in <div class="ice">ice</div>.</div>
+<div>From what I’ve tasted of <div class="fire">desire</div>
+I hold with those who favor <div class="fire">fire</div>.</div>
+<div>But if it had to perish <div class="ice">twice</div>,</div>
+<div>I think I know enough of <div class="other">hate</div>
+To say that for destruction ice</div>
+<div>Is also <div class="other">great</div></div>
+<div>And would <div class="ice">suffice</div>.</div>
 </body>
 </html>
