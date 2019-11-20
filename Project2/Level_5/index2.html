@@ -3,24 +3,48 @@
 <head></head>
 <title>Fire and Ice</title>
 <style type="text/css">
-	div{position: static;
-		}
-	.fire{position: relative;
-		left: 300px;}
-	.ice{position: relative;
-		left: 300px;}
-	.other{position: relative;
-		left: 300px;}
+	#fire-word{color: red;}
+    #ice-word{color: lightskyblue;}
+		
+        
+      nav{position: relative;
+        left: 399px;
+        top: 70px;
+        width: 1000px;
+        height: 130px;}
+      .back{position: absolute;
+        left: 252px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .next{position: absolute;
+        left: 387px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .return{position: absolute;
+        left: 319px;
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 50%}
 </style>
 <body>
-<div>Some say the world will end in <div class="fire">fire</div>,
-Some say in <div class="ice">ice</div>.</div>
-<div>From what I’ve tasted of <div class="fire">desire</div>
-I hold with those who favor <div class="fire">fire</div>.</div>
-<div>But if it had to perish <div class="ice">twice</div>,</div>
-<div>I think I know enough of <div class="other">hate</div>
-To say that for destruction ice</div>
-<div>Is also <div class="other">great</div></div>
-<div>And would <div class="ice">suffice</div>.</div>
+	
+<p style="color: white;">Some say the world will end in</p> <p id="fire-word">fire,</p>
+<p style="color: white;">Some say in</p> <p id="ice-word">ice.</p>
+<p style="color: white;">From what I’ve tasted of</p> <p id="fire-word">desire</p>
+<p style="color: white;">I hold with those who favor</p> <p id="fire-word">fire.</p>
+<p style="color: white;">But if it had to perish</p> <p id="ice-word">twice,</p>
+<p style="color: white;">I think I know enough of</p> <p>hate</p>
+<p style="color: white;">To say that for destruction</p> <p id="ice-word">ice</p>
+<p style="color: white;">Is also</p> <p>great</p>
+<p style="color: white;">And would</p> <p id="ice-word">suffice.</p>
+
+<nav>
+    <a href="index1.html"><div class="back"></div></a>
+    <a href="index3.html"><div class="next"></div></a>
+    <a href="../index.html"><div class="return"></div></a>
+  </nav>
 </body>
 </html>

@@ -2,14 +2,57 @@
 <html>
 <head><title>Fire and Ice</title>
 <style type="text/css">
-  
+  .fire-box{border: 2px solid red;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+background: red;}
+  .ice-box{border: 2px solid blue;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+background: blue;}
+
+a{text-decoration: none;}
+        a:link, a:visted{color: white;
+           }
+        a:hover, a:active{color: white;
+            }
+      nav{position: relative;
+        left: 399px;
+        top: 70px;
+        width: 1000px;
+        height: 130px;}
+      .back{position: absolute;
+        left: 252px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .next{position: absolute;
+        left: 387px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .return{position: absolute;
+        left: 319px;
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 50%}
 </style>
 </head>
   <body>
+  	
 <p>Some say the world will end in:</p> 
 <br>
-<input type="checkbox" name="destruction" value="fire">fire<br>
-<input type="checkbox" name="destruction" value="ice">ice<br>
+<div class="fire-box"><span style="color: red"><a href="#fire-answer">fire</a></span></div><br>
+<div class="ice-box"><a href="#ice-answer">ice</a></div><br>
 
 <br>
 <br>
@@ -120,8 +163,8 @@
 <br>
 <br>
 
-From what I’ve tasted of desire
-I hold with those who favor fire.
+<div id="fire-answer">From what I’ve tasted of desire<br>
+I hold with those who favor fire.</div>
 
 <br>
 <br>
@@ -232,11 +275,17 @@ I hold with those who favor fire.
 <br>
 <br>
 
-But if it had to perish twice,
-I think I know enough of hate
-To say that for destruction ice
-Is also great
-And would suffice.
+<div id="ice-answer">But if it had to perish twice,<br>
+I think I know enough of hate<br>
+To say that for destruction ice<br>
+Is also great<br>
+And would suffice.</div>
+<br>
+<nav>
+    <a href=""><div class="back"></div></a>
+    <a href="index2.html"><div class="next"></div></a>
+    <a href="../index.html"><div class="return"></div></a>
+</nav>
 </body>
 
 </html>

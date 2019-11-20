@@ -31,9 +31,34 @@
     	font-size: 16vw;}
     #small{font-size: 16px;
     }
+
+        a:link, a:visted{color: ivory;}
+        a:hover, a:active{color: firebrick;}
+      nav{position: relative;
+        left: 399px;
+        top: 70px;
+        width: 1000px;
+        height: 130px;}
+      .back{position: absolute;
+        left: 252px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .next{position: absolute;
+        left: 387px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .return{position: absolute;
+        left: 319px;
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 50%}
 </style>
 </head>
   <body>
+    
 <div class="line-1">Some say the world will end in <div id="small">fire</div>,</div>
 <div class="line-2">Some say in <div id="small">ice.</div></div>
 <div class="line-3">From what I’ve tasted of <div id="small">desire</div></div>
@@ -43,6 +68,12 @@
 <div class="line-7">To say that for destruction <div id="small">ice</div></div>
 <div class="line-8">Is also <div id="small">great</div></div>
 <div class="line-9">And would <div id="small">suffice.</div></div>
+
+<nav>
+    <a href=""><div class="back"></div></a>
+    <a href="index2.html"><div class="next"></div></a>
+    <a href="../index.html"><div class="return"></div></a>
+    </nav>
 </body>
 
 </html>

@@ -6,25 +6,49 @@
 	div{position: static;
 		}
 	.fire-1{position: sticky;
-		top: 0;}
+		top: -1;}
 	.fire-2{position: sticky;
-		top: 2;}
+		top: -1;}
 	.fire-3{position: sticky;
-		top: 3;}
+		top: -1;}
 	.fire-4{position: sticky;
-		top: 4;}
+		top: -1;}
 
 	.ice-1{position: sticky;
 		top: -1;}
 	.ice-2{position: sticky;
-		top: 0;}
+		top: -1;}
 	.ice-3{position: sticky;
-		top: 0;}
+		top: -1;}
 
 	.other-1{position: sticky;
-		top: 0;}
+		top: -1;}
 	.other-2{position: sticky;
-		top: 0;}
+		top: -1;}
+
+      a:link, a:visted{color: ivory;}
+      a:hover, a:active{color: firebrick;}
+      nav{position: relative;
+        left: 399px;
+        top: 70px;
+        width: 1000px;
+        height: 130px;}
+      .back{position: absolute;
+        left: 252px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .next{position: absolute;
+        left: 387px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .return{position: absolute;
+         left: 319px;
+         width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 50%}
 </style>
 <body>
 
@@ -1135,5 +1159,11 @@ I hold with those who favor <div class="fire-3">fire.</div>
 <br>
 <br>
 <div></div>
+
+<nav>
+  <a href="index1.html"><div class="back"></div></a>
+        <a href="index3.html"><div class="next"></div></a>
+        <a href="../index.html"><div class="return"></div></a>
+</nav>
 </body>
 </html>

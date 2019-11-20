@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <style type="text/css">
+       a:link, a:visted{color: ivory;}
+        a:hover, a:active{color: firebrick;}
+      nav{position: relative;
+        left: 399px;
+        top: 70px;
+        width: 1000px;
+        height: 130px;}
+      .back{position: absolute;
+        left: 252px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .next{position: absolute;
+        left: 387px;
+        width: 50px;
+        height: 50px;
+        background: black;}
+      .return{position: absolute;
+        left: 319px;
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-radius: 50%}
+    </style>
+</head>
 <title>Fire and Ice</title>
   <body>
+    
 	<br>
 	<p>Some say the world will end in <h1>fire</h1>,</p>
 	<br>
@@ -19,6 +46,11 @@
     <p>Is also great</p>
     <br>
     <p>And would suffice.</p>
+    <nav>
+        <a href=""><div class="back"></div></a>
+        <a href="index2.html"><div class="next"></div></a>
+        <a href="../index.html"><div class="return"></div></a>
+    </nav>
   </body>
 
 </html>
